@@ -2,32 +2,34 @@
 ---------------------------------
 Content of this repository
 ---------------------------------
--SurfUps directory:
-    -climate_starter.jpynb <--> This is the analysis file for the SQLAlchemy part
-    -app.py <--> This is the Flask app, created via python using flask library
-    -Resources directory:
-        -hawaii.sqlite <--> This sqlite db is used in our jupyter notebook and flask app
-        -hawaii_measurement.csv
+-SurfUps directory:<br/>
+    -climate_starter.jpynb <--> This is the analysis file for the SQLAlchemy part<br/>
+    -app.py <--> This is the Flask app, created via python using flask library<br/>
+    -Resources directory:<br/>
+        -hawaii.sqlite <--> This sqlite db is used in our jupyter notebook and flask app<br/>
+        -hawaii_measurement.csv<br/>
         -hawaii_stations.csv
 
 -------------------------------------------------
 Instructions for SurfsUp (sqlalchemy-challenge)
 -------------------------------------------------
-This Challenge is divided in Two Parts: 'Analyze and Explore the Climate Data' & 'Design Your Climate APP'
-**<b> Part 1: Analyze and Explore the Climate Data </b>
+This Challenge is divided in Two Parts: 'Analyze and Explore the Climate Data' & 'Design Your Climate APP'<br/>
+**<b> Part 1: Analyze and Explore the Climate Data </b><br/>
     In this section, you’ll use Python and SQLAlchemy to do a basic climate analysis and data exploration of your climate database. Specifically, you’ll use SQLAlchemy ORM queries, Pandas, and Matplotlib.<br/>
-    --Precipitation Analysis
-        -Find the most recent date in the dataset.
-        -Using that date, get the previous 12 months of precipitation data by querying the previous 12   months of data.
-        -Select only the "date" and "prcp" values.
-        -Load the query results into a Pandas DataFrame. Explicitly set the column names.
-        -Sort the DataFrame values by "date".
-        -Plot the results by using the DataFrame plot method.
-    --Station Analysis
-        -Design a query to calculate the total number of stations in the dataset.
-        -Design a query to find the most-active stations (that is, the stations that have the most rows).
-        -Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active station id found in the previous query.
-        -Design a query to get the previous 12 months of temperature observation (TOBS) data.
+    
+    --Precipitation Analysis<br/>
+        -Find the most recent date in the dataset.<br/>
+        -Using that date, get the previous 12 months of precipitation data by querying the previous 12   months of data.<br/>
+        -Select only the "date" and "prcp" values.<br/>
+        -Load the query results into a Pandas DataFrame. Explicitly set the column names.<br/>
+        -Sort the DataFrame values by "date".<br/>
+        -Plot the results by using the DataFrame plot method.<br/>
+
+    --Station Analysis<br/>
+        -Design a query to calculate the total number of stations in the dataset.<br/>
+        -Design a query to find the most-active stations (that is, the stations that have the most rows).<br/>
+        -Design a query that calculates the lowest, highest, and average temperatures that filters on the most-active  station id found in the previous query.<br/>
+        -Design a query to get the previous 12 months of temperature observation (TOBS) data.<br/>
 
 **<b> Part 2: Design Your Climate App </b><br/>
     You’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
